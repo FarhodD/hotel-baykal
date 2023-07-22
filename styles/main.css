@@ -161,4 +161,42 @@
   opacity: .9;
 }
 
-.main__section--img-block {}
+/* ABOUT-US */
+.about-us {
+  padding: 50px 0;
+}
+
+.about__us-title {
+  font-family: 'Lora', serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  color: var(--blue-color);
+  margin-bottom: 80px;
+}
+
+.about__us-inner {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.about__us-paragraphs {
+  max-width: 390px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 141.182%;
+  letter-spacing: 0.48px;
+  color: var(--primary-color);
+}
+
+.about__us-text {
+  margin-bottom: 20px;
+}
+
+.about__us-text:last-child {
+  margin-bottom: 0;
+}
+
+.about__us-img {}
