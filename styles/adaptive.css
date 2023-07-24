@@ -17,6 +17,28 @@
     gap: 15px;
   }
 
+  /* SERVICES */
+  .services__list {
+    column-gap: 0px;
+    justify-content: space-between;
+  }
+
+
+  /* OUR-NUMBERS */
+  .our__numbers-bg {
+    display: none;
+  }
+
+  .our__numbers-inner {
+    display: block;
+  }
+
+  /*  */
+  .reviews__cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
 }
 
 @media (max-width: 1000px) {
@@ -57,13 +79,23 @@
 
   .about__us-paragraphs {
     max-width: 100%;
-  } 
+  }
 
-  .about__us-title {
+  .section__titles {
     margin-bottom: 40px;
   }
 
+
 }
+
+@media (max-width: 850px) {
+  .services__list {
+    grid-template-columns: repeat(2, 237px);
+    justify-content: center;
+    column-gap: 70px;
+  }
+}
+
 
 @media (max-width: 768px) {
 
@@ -181,11 +213,40 @@
   }
 
   /* ABOUT-US */
-  .about__us-title {
+  .section__titles {
     font-size: 40px;
     margin-bottom: 30px;
   }
+
+  /* OUR-NUMBERS */
+  .our__numbers-cards {
+    flex-direction: column;
+    align-items: center;
+  }
 }
+
+@media (max-width: 600px) {
+
+  /* SERVICES */
+  .services__list {
+    grid-template-columns: repeat(2, 190px);
+    column-gap: 20px;
+  }
+
+  .services__item-icon {
+    width: 36px;
+    height: 31px;
+  }
+
+  .services__item-title {
+    font-size: 16px;
+  }
+
+  .services__item-text {
+    font-size: 12px;
+  }
+}
+
 
 @media (max-width: 430px) {
   .title__block-title {
@@ -209,11 +270,51 @@
   }
 
   /* ABOUT-US */
-  .about__us-title {
+  .section__titles {
     font-size: 30px;
   }
 
   .about__us-paragraphs {
     font-size: 12px;
+  }
+
+  /* SERVICES */
+  .services__list {
+    grid-template-columns: repeat(2, 126px);
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .services__item-icon {
+    width: 36px;
+    height: 31px;
+    margin-bottom: 10px;
+  }
+
+  .services__item-title {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  .services__item-text {
+    font-size: 10px;
+  }
+
+  /*  */
+  .reviews__card-avatar--container {
+    margin-bottom: 15px;
+  }
+
+  .reviews__avatar {
+    padding: 15px;
+  }
+
+  .reviews__card-title {
+    margin-bottom: 15px;
+  }
+
+  .reviews__card-text {
+    font-size: 12px;
+    margin-bottom: 15px;
   }
 }
