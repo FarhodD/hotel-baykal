@@ -414,3 +414,189 @@
   line-height: 141.182%;
   letter-spacing: 0.42px;
 }
+
+/* CONTACTS */
+.contacts {
+  padding: 50px 0;
+}
+
+.contacts__inner {
+  position: relative;
+}
+
+.contacts__map {}
+
+.contacts__card {
+  max-width: 355px;
+  padding: 32px 48px;
+  position: absolute;
+  top: 34px;
+  left: 75px;
+  z-index: 10;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+.contacts__card-title {
+  margin-bottom: 25px;
+}
+
+.contacts__card-address {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 140%;
+  letter-spacing: 0.9px;
+  color: var(--primary-color);
+  max-width: 205px;
+  margin-bottom: 25px;
+}
+
+.contacts__card-address--name {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contacts__card-address--text {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.contacts__card-tels {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  line-height: normal;
+  font-weight: 400;
+  letter-spacing: 0.9px;
+  margin-bottom: 25px;
+}
+
+.contacts__card-tel {
+  color: #000;
+  display: block;
+  cursor: pointer;
+}
+
+.contacts__card-tel:first-child {
+  margin-bottom: 10px;
+}
+
+.contacts__card-messengers {}
+
+.contacts__card-messengers--link {
+  height: 60px;
+  width: 60px;
+}
+
+.contacts__card-messengers--link:first-child {
+  margin-right: 30px;
+}
+
+.messenger {
+  width: 60px;
+  height: 60px;
+}
+
+.viber {}
+
+.whatsapp {}
+
+iframe {
+  width: 100%;
+  height: 500px;
+  border-radius: 20px;
+}
+
+/* FOOOTER */
+.footer {
+  padding: 40px 0px 25px 0px;
+  background: #282828;
+}
+
+.footer__inner {
+  display: flex;
+  gap: 110px;
+}
+
+.btn__footer {
+  padding: 8px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+
+.footer__logo {
+  margin-right: 0;
+}
+
+.footer__titles {
+  margin-bottom: 15px;
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  color: var(--blue-color);
+}
+
+.footer__navigation {}
+
+.footer__nav {}
+
+.footer__menu {}
+
+.footer__item {
+  margin-bottom: 15px;
+}
+
+.footer__btn {
+  margin-bottom: 15px;
+}
+
+.footer__link {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.54px;
+  color: #fff;
+}
+
+.footer__contacts-address {
+  font-style: normal;
+  line-height: 140%;
+  letter-spacing: 0.9px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer__contacts-address--name {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.footer__contacts-address--text {
+  font-size: 16px;
+}
+
+.footer__contacts-tels {
+  margin-bottom: 15px;
+}
+
+.footer__contacts-tel {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  display: block;
+}
+
+.footer__contacts-tel:first-child {
+  margin-bottom: 5px;
+}
+
+.messengers__link:first-child {
+  margin-right: 5px;
+}
