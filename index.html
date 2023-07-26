@@ -45,16 +45,16 @@
               <a href="#" class="menu__link active__link">Главная</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">О гостинице</a>
+              <a href="#about-us" class="menu__link">О гостинице</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Преимущества</a>
+              <a href="#services" class="menu__link">Преимущества</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Номера</a>
+              <a href="#our__numbers" class="menu__link">Номера</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Отзывы</a>
+              <a href="#reviews" class="menu__link">Отзывы</a>
             </li>
 
             <div class="menu-btn__container">
@@ -139,7 +139,7 @@
               consequat.
             </p>
             <div class="main__section--btn-container">
-              <button class="main__section-btn">
+              <button class="main__section-btn modalBtn" data-path="form-popup">
                 Забронировать
               </button>
             </div>
@@ -148,11 +148,28 @@
             <img src="./images/main-bg.svg" alt="Гостинница Байкал">
           </div>
         </div>
+        <div class="modals">
+          <div class="modal-overlay modal-overlay--visible">
+            <div class="modal modal--visible" data-target="form-popup">
+              <h2 class="modal__title section__titles">Заполните форму!</h2>
+              <p class="modal__subtitle">И наш специалист свяжется с вами в ближайшее время.</p>
+              <form>
+                <input type="text" class="name" placeholder="Ваше имя:">
+                <input type="tel" class="tel" placeholder="Телефон:">
+                <textarea class="comments" placeholder="Комментарий:"></textarea>
+                <div class="modal__btn-container">
+                  <button class="form__btn">Отправить</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="modal__success"></div>
+        </div>
       </div>
     </section>
 
     <!-- ABOUT-US -->
-    <section class="about-us">
+    <section class="about-us" id="about-us">
       <div class="container">
         <h2 class="section__titles about__us-title">
           О гостинице
@@ -178,7 +195,7 @@
     </section>
 
     <!-- SERVICES -->
-    <section class="services">
+    <section class="services" id="services">
       <div class="container">
         <h2 class="section__titles services__title">Мы предлагаем</h2>
         <ul class="services__list">
@@ -263,7 +280,7 @@
     </section>
 
     <!-- OUR-NUMBERS -->
-    <section class="our__numbers">
+    <section class="our__numbers" id="our__numbers">
       <div class="container">
         <h2 class="section__titles our__numbers-title">Наши номера</h2>
         <div class="our__numbers-inner">
@@ -316,7 +333,7 @@
     </section>
 
     <!-- REVIEWS -->
-    <section class="reviews">
+    <section class="reviews" id="reviews">
       <div class="container">
         <h2 class="section__titles">Ваши отзывы</h2>
         <div class="reviews__inner">
@@ -379,7 +396,7 @@
     </section>
 
     <!-- CONTACTS -->
-    <section class="contacts">
+    <section class="contacts" id="contacts">
       <div class="container">
         <div class="contacts__inner">
           <div class="contacts__map">
