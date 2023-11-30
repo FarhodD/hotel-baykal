@@ -71,6 +71,10 @@
   }
 
   /* MAIN__SECTION */
+  .main__section {
+    padding-top: 120px;
+  }
+
   .main__section-inner {
     flex-direction: column;
   }
@@ -300,7 +304,7 @@
   }
 
   .main__section-btn {
-    padding: 20px;
+    padding: 15px;
     font-size: 16px;
   }
 
@@ -396,6 +400,7 @@
 
   .btn__footer {
     padding: 8px 20px;
+    width: 100%;
   }
 
   .footer__navigation {
@@ -418,5 +423,9 @@
   .footer__messengers {
     display: flex;
     justify-content: center;
+  }
+
+  .arrow__up-container {
+    display: none;
   }
 }
